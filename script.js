@@ -25,63 +25,60 @@ function generateTeamCards() {
 
         switch (member.position.toLowerCase()) {
             case 'quarterback':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'running back':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'running back':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'wide receiver':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'tight end':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'offensive line':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'defensive line':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'linebacker':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'cornerback':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'safety':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'kicker':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'punter':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
             case 'coach':
-                backgroundColor = 'green'
+                backgroundColor = '#125840'
                 break
         }
 
-        card.style.backgroundColor = backgroundColor
-
-
-
-        
-
         card.innerHTML = `
-        <div class="card">
-            <div class = "card-header">
+        <div class="card m-3">
+            <div class = "card-header text-white">
                 ${member.name}
             </div>
-            <div class = "card-body" style = "background-color:${backgroundColor};">
+            <div class = "card-body text-white" style = "background-color:${backgroundColor};">
                 <p><strong>Position:</strong> ${member.position}</p>
             </div>
         </div>
         
         `
+        for (let i = 0; i < card.children.length; i++) {
+            card.children[i].style.backgroundColor = backgroundColor;
+        }
         teamCardsContainer.appendChild(card)
     });
 }
