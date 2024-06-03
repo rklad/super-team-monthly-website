@@ -28,7 +28,7 @@ const teamMembersO1 = [
         age: 23,
         position: 'Wide Receiver',
         strengths: 'Body Control',
-        weaknesses: 'Mile High Stadium',
+        weaknesses: 'Terrible Quarterback play',
         skills: ['Catching', ' Agility', ' Route Running'],
         biography: 'Garrett Wilson is one of the best up-and-coming wide receivers in the league. Despite playing with bad quarterbacks, he has still managed to produce great stats.',
         img: "imgs/garrett.png"
@@ -63,35 +63,35 @@ const teamMembersO2 = [
     
     { //CJ MOSLEY
         name: 'CJ Mosley',
-        age: 25,
+        age: 31,
         position: 'Linebacker',
-        strengths: 'Brute Strength',
+        strengths: 'Football IQ',
         weaknesses: 'Run Defense',
-        skills: ['Power', ' Getting to the QB', ' Shed blocks against Offensive Linemen'],
-        biography: 'Jermaine Johnson was one of the best edge rushers in his class coming out of college and has completely emerged into a star after a quiet first season',
-        img: "imgs/breece.png"
+        skills: ['Knowledge of formations and plays', ' Leadership', ' Veteran experience'],
+        biography: 'CJ Mosley has been considered one of the top linebackers in the league for almost half a decade now. He is most known for his amazing football IQ. ',
+        img: "imgs/mosley.png"
     },
 
     { //SAUCE GARDNER
         name: 'Sauce Gardner',
         age: 23,
         position: 'Cornerback',
-        strengths: 'Ball Carrying',
-        weaknesses: 'Mile High Stadium',
-        skills: ['Breaking Tackles', ' Scoring Touchdowns', ' Lots of speed'],
-        biography: 'Breece Hall is a young star, already establishing himself as one of the best running backs in the league. Despite a season-ending injury early on in his rookie season, he has displayed his skill and has produced a lot, despite playing on a bad offense.',
-        img: "imgs/breece.png"
+        strengths: 'Locking down wide receivers',
+        weaknesses: 'The media hating him',
+        skills: ['His coverage abilities', ' His aura', ' His recovery ability against wide receivers'],
+        biography: 'Sauce Gardner is already considered by many to be the best cornerback in football, despite only playing for 2 seasons.',
+        img: "imgs/sauce.png"
     },
 
     { //QUINCY WILLIAMS
         name: 'Quincy Williams',
-        age: 23,
+        age: 27,
         position: 'Linebacker',
-        strengths: 'Ball Carrying',
-        weaknesses: 'Mile High Stadium',
-        skills: ['Breaking Tackles', ' Scoring Touchdowns', ' Lots of speed'],
-        biography: 'Breece Hall is a young star, already establishing himself as one of the best running backs in the league. Despite a season-ending injury early on in his rookie season, he has displayed his skill and has produced a lot, despite playing on a bad offense.',
-        img: "imgs/breece.png"
+        strengths: 'Tackling',
+        weaknesses: 'Not making the Pro Bowl',
+        skills: ['Hitting people really hard', ' Coverage', ' Being Quinnen Williams\'s brother'],
+        biography: 'Quincy Williams had a breakout season last year after being seen as a fringe roster player for most of his career. He is now regarded as one of the best linebackers in the league.',
+        img: "imgs/quincy.png"
     }
 ]
 
@@ -109,13 +109,13 @@ const teamMembersD2 = [
 
     { //QUINNEN WILLIAMS
         name: 'Quinnen Williams',
-        age: 23,
+        age: 26,
         position: 'Defensive Tackle',
-        strengths: 'Ball Carrying',
-        weaknesses: 'Mile High Stadium',
-        skills: ['Breaking Tackles', ' Scoring Touchdowns', ' Lots of speed'],
-        biography: 'Breece Hall is a young star, already establishing himself as one of the best running backs in the league. Despite a season-ending injury early on in his rookie season, he has displayed his skill and has produced a lot, despite playing on a bad offense.',
-        img: "imgs/breece.png"
+        strengths: 'Everything',
+        weaknesses: 'Getting double-teamed',
+        skills: ['Beating offensive linemen with ease', ' Run stuffing', ' Massive strength'],
+        biography: 'Quinnen Williams is seen by many as part of the top tier of defensive tackles in the league. He recently received a major contract extension after a breakout season two years ago. ',
+        img: "imgs/quinnen.png"
     }
 ]
 
